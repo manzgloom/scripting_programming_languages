@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin: 10px 0 0 0;
+}
+
+
+.container {
+    text-align: center;
+}
+
+#field {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(9, 40px);
+    gap: 5px;
+    margin: 10px auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 24px;
+}
+
+.good {
+    background-color: rgb(236, 246, 56); 
+}
+
+.error {
+    background-color: red;
+}
+
+.button {
+    background-color: rgb(218, 107, 226);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
